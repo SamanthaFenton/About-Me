@@ -11,50 +11,89 @@ const greet = alert("OK, thanks " + user + " now you may enter...ENJOY!!!");
 console.log(greet)
 
 
-let q1=confirm(Can I make a Dolphin noise???);
+
+
+let q1=prompt(Can I make a Dolphin noise???);
 console.log(q1)
 
-if(q1=true){
+switch .toLowerCase(q1){
+    case "yes||y":
     console.log("That's correct, Well done!")
-}else{
+    break;
+    case "no||n":
     console.log("XXX - Wrong answer... please try again")
+    break;
+    default:
+        console.log("no idea what you said!")
+
 }
 
-let q2=confirm("Do I enjoy surprises???");
+let q2=prompt("Do I enjoy surprises???");
 console.log(q2)
 
-if(q2=true){
-    console.log("ABSOLUTELY NOT, it's just not fun!!")
-}else{
-    console.log("Yep!  Totally right, surprises suck!")
+switch .toLowerCase(q2){
+    case "yes||y":
+        console.log("ABSOLUTELY NOT, it's just not fun!!")
+        break;
+    case "no||n":
+        console.log("Yep!  Totally right, surprises suck!")
+        break;
+    default:
+        console.log("no idea what you said!")
+
 }
 
-let q3=confirm("Do I speak more than 1 language?")
+
+let q3=prompt("Do I speak more than 1 language?")
 console.log(q3)
 
-if(q3=true){
-    console.log("well done, now you're getting me!")
-}else{
-    console.log("Wronnnnggggggggg!")
+
+switch .toLowerCase(q2){
+    case "yes||y":
+        console.log("well done, now you're getting me!")
+        break;
+    case "no||n":
+        console.log("Wronnnnggggggggg!")
+        break;
+    default:
+        console.log("That's just noise!")
+
 }
 
-let q4=confirm("Have I ever lived in another country???")
+
+let q4=prompt("Have I ever lived in another country???")
 console.log(q4)
 
-if(q4=true){
-    console.log("I would have loved to live or have lived in another, but alas, destiny had another path for me.")
-}else{
-    console.log("Yeah you're right, totally missed that boat!")
+switch .toLowerCase(q2){
+    case "yes||y":
+        console.log("I would have loved to live or have lived in another, but alas, destiny had another path for me.")
+        break;
+    case "no||n":
+        console.log("Yeah you're right, totally missed that boat!!")
+        break;
+    default:
+        console.log("Boooooooooooooooooooooooo!")
+
 }
+
+
 
 let q5=confirm("Have I ever been on a TV gameshow???")
 console.log(q5)
 
-if(q5=true){
-    console.log("Absolutely NOOOO way.... never in a million years... do you even know me???")
-}else{
-    console.log("Thaaaaaaat's right... and I never ever will!")
+switch .toLowerCase(q2){
+    case "yes||y":
+        console.log("Absolutely NOOOO way.... never in a million years... do you even know me???")
+        break;
+    case "no||n":
+        console.log("Thaaaaaaat's right... and I never ever will!")
+        break;
+    default:
+        console.log("You're just no fun!")
+
 }
+
+
     
     
    
