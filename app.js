@@ -13,7 +13,7 @@ console.log(greet)
 
 
 
-let q1=prompt(Can I make a Dolphin noise???);
+let q1 = prompt(Can I make a Dolphin noise???);
 console.log(q1)
 
 switch .toLowerCase(q1){
@@ -28,7 +28,7 @@ switch .toLowerCase(q1){
 
 }
 
-let q2=prompt("Do I enjoy surprises???");
+let q2 = prompt("Do I enjoy surprises???");
 console.log(q2)
 
 switch .toLowerCase(q2){
@@ -44,7 +44,7 @@ switch .toLowerCase(q2){
 }
 
 
-let q3=prompt("Do I speak more than 1 language?")
+let q3 = prompt("Do I speak more than 1 language?")
 console.log(q3)
 
 
@@ -61,7 +61,7 @@ switch .toLowerCase(q2){
 }
 
 
-let q4=prompt("Have I ever lived in another country???")
+let q4 = prompt("Have I ever lived in another country???")
 console.log(q4)
 
 switch .toLowerCase(q2){
@@ -78,7 +78,7 @@ switch .toLowerCase(q2){
 
 
 
-let q5=confirm("Have I ever been on a TV gameshow???")
+let q5 = confirm("Have I ever been on a TV gameshow???")
 console.log(q5)
 
 switch .toLowerCase(q2){
