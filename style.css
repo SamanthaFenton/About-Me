@@ -6,14 +6,96 @@
     
 }
 
-div{
-    background-color: F5EFE7;
-    padding: 100;
-    margin:90%;
-    border: 1px;
+:root {
+    /* Using CSS Custom properties */
+    --cream: F5EFE7;
+    --beige: D8C4B6;
+    --mblu: 4F709C;
+    --dblu: 213555;
+    --mainbackgroundcolor: #f1c376;
+}
+
+h1 {
+    font-size:30px;
+    font-weight: 1000;
+    font-style:initial;
+    color: rgb(20, 58, 58);
 
 }
 
+h2 {
+    font-size: 25px;
+    font-weight: 1000;
+    font-style: initial;
+    color: rgb(20, 58, 58);
+    width: 90%;
+        margin: 2rem;
+        background-color: var(--mainbackgroundcolor);
+        /* background-color: #606c5d; */
+     
+ 
+        padding: 30px;
+        border: 1px;
+
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 1000;
+    font-style: initial;
+    color: rgb(20, 58, 58);
+      
+
+
+}
+
+
+ body {
+    min-width: 320px;
+           
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+}
+
+
+section {
+    width: 90%;
+    margin: 2rem;
+    background-color: var(--mainbackgroundcolor);
+    /* background-color: #606c5d; */
+    margin-bottom: 2rem;
+    min-height: 100px;
+    padding: 30px;
+    border: 1px;
+}
+
+
+div {
+    background-color:rgb(225, 207, 198);
+    padding: 300;
+    margin:90%;
+    border: 10px;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+section ol {
+    list-style: number;
+}
+
+section li {
+    background-color: var(--pnk);
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
 
 
 

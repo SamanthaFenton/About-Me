@@ -92,3 +92,169 @@ if (qfive === "yes" || qfive === "y") {
 
 
 
+
+//Class 03 LabWork
+
+
+
+
+
+const game = alert("Well done!!!  You've made it this far.... only two more questions to go!");
+console.log(game);
+
+//while ((qsix < "42")||(qsix > "42")){
+ //   qsix="Please try again" +
+
+ //I think the following question needs a while loop but I can't get my head around implementing it in the code.
+
+ const loop = 4;
+ console.log("4");
+ for(let qsix = 42; qsix < loop; i++){
+    console.log("looplog");
+ }
+
+let qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 4 attempts to get it right and I ask you enter numerically!");
+console.log(qsix);
+
+if (qsix == "42"){
+    console.log("YAYAYAYA! What a great Number... you must be psychic!");
+    alert("YAYAYAYA! What a great Number... you must be psychic!");
+}else if (qsix < "42"){
+    console.log("Sorry, too low!  Please try again.");
+    alert("Sorry, too low!  Please try again.");
+}else if (qsix > "42"){
+    console.log("Sorry, too high! Please try again.");
+    alert("Sorry, too high! Please try again.")
+
+}
+
+qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 3 attempts to get it right and I ask you enter numerically!");
+console.log(qsix);
+
+if (qsix == "42") {
+    console.log("YAYAYAYA! What a great Number... you must be psychic!");
+    alert("YAYAYAYA! What a great Number... you must be psychic!");
+} else if (qsix < "42") {
+    console.log("Sorry, too low!  Please try again.");
+    alert("Sorry, too low!  Please try again.");
+} else if (qsix > "42") {
+    console.log("Sorry, too high! Please try again.");
+    alert("Sorry, too high! Please try again.")
+
+}
+
+qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 2 attempts to get it right and I ask you enter numerically!");
+console.log(qsix);
+
+if (qsix == "42") {
+    console.log("YAYAYAYA! What a great Number... you must be psychic!");
+    alert("YAYAYAYA! What a great Number... you must be psychic!");
+} else if (qsix < "42") {
+    console.log("Sorry, too low!  Please try again.");
+    alert("Sorry, too low!  Please try again.");
+} else if (qsix > "42") {
+    console.log("Sorry, too high! Please try again.");
+    alert("Sorry, too high! Please try again.")
+
+}
+
+qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 1 attempt to get it right and I ask you enter numerically!");
+console.log(qsix);
+
+if (qsix == "42") {
+    console.log("YAYAYAYA! What a great Number... you must be psychic!");
+    alert("YAYAYAYA! What a great Number... you must be psychic!");
+} else if (qsix < "42") {
+    console.log("Sorry, too low!  Please try again.");
+    alert("Sorry, too low!  Please try again.");
+} else if (qsix > "42") {
+    console.log("Sorry, too high! Please try again.");
+    alert("Sorry, too high! Please try again.")
+
+}
+
+
+let qseven = prompt("You have 6 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+const favFoods = ["pain aux chocolate", "salad", "seafood", "thai", "sushi", "steak", "ice cream", "sarmale", "fruit"];
+console.log(favFoods);
+
+if (qseven == favFoods){
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+}else if (qseven !== favFoods){
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+
+qseven = prompt("You have 5 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+if (qseven == favFoods) {
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+} else if (qseven !== favFoods) {
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+
+qseven = prompt("You have 4 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+if (qseven == favFoods) {
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+} else if (qseven !== favFoods) {
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+
+qseven = prompt("You have 3 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+if (qseven == favFoods) {
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+} else if (qseven !== favFoods) {
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+
+qseven = prompt("You have 2 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+if (qseven == favFoods) {
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+} else if (qseven !== favFoods) {
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+
+qseven = prompt("You have 1 attempt to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
+
+if (qseven == favFoods) {
+    console.log("Yummy! Can you guess any more???");
+    alert("Yummy!  Can you guess any more???");
+} else if (qseven !== favFoods) {
+    console.log("Sorry that didn't make the shortlist, try again...");
+    alert("Sorry that didn't make the shortlist, try again...");
+
+}
+//I know I need to run a (for) loop.  I think this one is a for loop but I can't get my head around how to do it for this.
+
+
+
+
+
+
+
+
+
