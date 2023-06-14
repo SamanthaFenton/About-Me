@@ -4,12 +4,14 @@ console.log(1)
 const welcome = alert("Welcome to my website about me, I hope you enjoy it, but first....");
 console.log(welcome)
 
-let user = prompt("Please tell me your name?");
+let user = prompt("Please tell me your name?").toLowerCase();
 console.log(user);
 
 const greet = alert("OK, thanks " + user + " now you may enter...ENJOY!!!");
-console.log(greet)
+console.log(greet);
 
+const intro = alert("Before you get started could you please try to answer a few questions about me first... please answer with `yes/no' or `y/n' only!   THANK YOOOOOOO.");
+console.log(intro);
 
 
 

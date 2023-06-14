@@ -1,4 +1,4 @@
-"use strict"
+/*"use strict"
 console.log(1)
 
 const welcome = alert("Welcome to my website about me, I hope you enjoy it, but first....");
@@ -22,13 +22,16 @@ switch(qone){
     case "yes":
     case "y":
         console.log("That's correct, Well done!");
+        alert("That's correct, Well done!");
         break;
     case "no":
     case "n":    
-        console.log("XXX - Wrong answer... please try again");
+        console.log("XXX - Wrong answer...");
+        alert("XXX - Wrong answer...");
         break;
     default:
         console.log("no idea what you said!");
+        alert("no idea what you said!");
 
 }
 
@@ -40,13 +43,16 @@ switch (qtwo){
     case "yes":
     case "y":
         console.log("ABSOLUTELY NOT, it's just not fun!!");
+        alert("ABSOLUTELY NOT, it's just not fun!!");
         break;
     case "no":
     case "n":
         console.log("Yep!  Totally right, surprises suck!");
+        alert("Yep!  Totally right, surprises suck!");
         break;
     default:
         console.log("no idea what you said!");
+        alert("no idea what you said!");
 
 }
 
@@ -59,13 +65,16 @@ switch (qthree){
     case "yes":
     case "y":
         console.log("well done, now you're getting me!");
+        alert("well done, now you're getting me!");
         break;
     case "no":
     case "n":
         console.log("Wronnnnggggggggg!");
+        alert("Wronnnnggggggggg!");
         break;
     default:
         console.log("That's just noise!");
+        alert("That's just noise!");
 
 }
 
@@ -77,13 +86,16 @@ switch (qfour){
     case "yes":
     case "y":
         console.log("I would have loved to live or have lived in another, but alas, destiny had another path for me.");
+        alert("I would have loved to live or have lived in another, but alas, destiny had another path for me.");
         break;
     case "no":
     case "n":
         console.log("Yeah you're right, totally missed that boat!!");
+        alert("Yeah you're right, totally missed that boat!!");
         break;
     default:
         console.log("Boooooooooooooooooooooooo!");
+        alert("Boooooooooooooooooooooooo!");
 
 }
 
@@ -96,17 +108,19 @@ switch (qfive){
     case "yes":
     case "y":
         console.log("Absolutely NOOOO way.... never in a million years... do you even know me???");
+        alert("Absolutely NOOOO way.... never in a million years... do you even know me???");
         break;
     case "no":
     case "n":
         console.log("Thaaaaaaat's right... and I never ever will!");
+        alert("Thaaaaaaat's right... and I never ever will");
         break;
     default:
         console.log("You're just no fun!");
 
 }
 
-
+*/
     
     
    
