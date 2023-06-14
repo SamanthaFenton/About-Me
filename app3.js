@@ -24,6 +24,9 @@ if (qone === "yes" || qone === "y") {
 } else if (qone === "no" || qone === "n") {
     console.log("XXX - Wrong answer...");
     alert("XXX - Wrong answer...");
+}else{
+    console.log("no idea what you said!");
+    alert("no idea what you said!");
 }
 
 let qtwo = prompt("Do I enjoy surprises???").toLowerCase();
@@ -35,6 +38,9 @@ if (qtwo === "yes" || qtwo === "y") {
 } else if (qtwo === "no" || qtwo === "n") {
     console.log("Yep!  Totally right, surprises suck!");
     alert("Yep!  Totally right, surprises suck!");
+} else{
+    console.log("no idea what you said!"); 
+    alert("no idea what you said!");
 }
 
 
@@ -47,7 +53,11 @@ if (qthree === "yes" || qthree === "y") {
 } else if (qthree === "no" || qthree === "n") {
     console.log("Wronnnnggggggggg!");
     alert("Wronnnnggggggggg!");
+} else{
+    console.log("no idea what you said!"); 
+    alert("no idea what you said!");
 }
+
 
 
 let qfour = prompt("Have I ever lived in another country???").toLowerCase();
@@ -59,10 +69,13 @@ if (qfour === "yes" || qfour === "y") {
 } else if (qfour === "no" || qfour === "n") {
     console.log("Yeah you're right, totally missed that boat!!");
     alert("Yeah you're right, totally missed that boat!!");
+} else{
+    console.log("no idea what you said!"); 
+    alert("no idea what you said!");
 }
 
 
-let qfive = confirm("Have I ever been on a TV gameshow???").toLowerCase();
+let qfive = prompt("Have I ever been on a TV gameshow???").toLowerCase();
 console.log(qfive)
 
 if (qfive === "yes" || qfive === "y") {
@@ -71,6 +84,9 @@ if (qfive === "yes" || qfive === "y") {
 } else if (qfive === "no" || qfive === "n") {
     console.log("Thaaaaaaat's right... and I never ever will!");
     alert("Thaaaaaaat's right... and I never ever will");
+} else{
+    console.log("no idea what you said!"); 
+    alert("no idea what you said!");
 }
 
 
