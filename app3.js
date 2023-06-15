@@ -1,4 +1,4 @@
-"use strict"
+/*"use strict"
 console.log(1)
 
 const welcome = alert("Welcome to my website about me, I hope you enjoy it, but first....");
@@ -119,6 +119,7 @@ console.log(qsix);
 if (qsix == "42"){
     console.log("YAYAYAYA! What a great Number... you must be psychic!");
     alert("YAYAYAYA! What a great Number... you must be psychic!");
+    break;
 }else if (qsix < "42"){
     console.log("Sorry, too low!  Please try again.");
     alert("Sorry, too low!  Please try again.");
@@ -172,6 +173,10 @@ if (qsix == "42") {
     alert("Sorry, too high! Please try again.")
 
 }
+
+
+
+
 
 
 let qseven = prompt("You have 6 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
@@ -248,6 +253,16 @@ if (qseven == favFoods) {
     alert("Sorry that didn't make the shortlist, try again...");
 
 }
+
+
+const final=alert("My favourite foods are; " + favFoods);
+console.log("final");
+
+const enter=alert("Thank you for taking the time to answer my quiz... you may now enter my site.");
+console.log("enter");
+
+
+
 //I know I need to run a (for) loop.  I think this one is a for loop but I can't get my head around how to do it for this.
 
 
@@ -257,4 +272,4 @@ if (qseven == favFoods) {
 
 
 
-
+*/
