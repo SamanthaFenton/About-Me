@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+h2{
+    font-weight: bold;
+
+}
+/* avoid pixels use percent for csreen changes*/
+section{
+    border: 15px solid red;
+    border-radius: 12px;
+    width: 80%; 
+    margin: 5rem auto 0 auto;
+    height: 40rem;
+    position: static;
+}
+
+article{
+    border: medium solid black;
+    margin: 1rem;
+    padding: 1rem; /*space between border and text*/
+}
+/* to change the individual text boxes layouut within pahge*/
+hashone{
+    width: 30%;
+    background-color: linen;
+    position:absolute;
+    top: 4rem;
+}
+
+hash2{
+    width: 50%;
+    margin: 0;
+    position: fixed;/*can nlock onto operating on page and stays in the same plac e when the page is scrolled unles you adjust with padding and margins to compensate*/
+
+}
+/*to create a fixed statement that shows over all else when scrolling position sticky the sticky only sticks when oit meets the bottom 0*/
+footer{
+    width: 100%;
+    height: 200rm;
+    background-color: darkcyan;
+    margin: 20rem 0;
+    position: sticky;
+    bottom: 0;
+
+}
+/*adding a class to a dvi, then to a div inside of a div - use width and heith to frame the second div*/
+.master{
+    width: 300;      /*parent*/
+    height: 200px;
+    background-color: bisque;
+    margin: 2rem auto;
+    position:relative
+}
+
+.overlay{
+    width: 100%;      /*child nested within */
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    overflow: hidden;/*hides the texyt beneath*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+
+
+}
+
+.master.hover .overlay{ /*change rthe way it scrolls using left right top and bottom*/
+    width: 100%;
+    right: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
