@@ -104,7 +104,7 @@ console.log(game);
  //I think the following question needs a while loop but I can't get my head around implementing it in the code.
 
 //for loop
-*/
+
 
 let number=42;
 console.log (number);
@@ -118,7 +118,7 @@ console.log(i);
  console.log("4");
  for(let qsix = 42; qsix < loop; i++){
     console.log("looplog");
- }*/
+ }
 
 let qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 4 attempts to get it right and I ask you enter numerically!");
 console.log(qsix);
@@ -136,7 +136,7 @@ if (qsix == number){
 
 }
 }
-/*qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 3 attempts to get it right and I ask you enter numerically!");
+qsix = prompt("I am thinking of a number between 1-50.... what is it???  You have 3 attempts to get it right and I ask you enter numerically!");
 console.log(qsix);
 
 if (qsix == "42") {
@@ -187,11 +187,15 @@ if (qsix == "42") {
 
 
 
-let qseven = prompt("You have 6 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
-console.log("qseven");
-
 const favFoods = ["pain aux chocolate", "salad", "seafood", "thai", "sushi", "steak", "ice cream", "sarmale", "fruit"];
 console.log(favFoods);
+
+
+
+for (let i=6; i<0; i--){
+
+let qseven = prompt("You have 6 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
+console.log("qseven");
 
 if (qseven == favFoods){
     console.log("Yummy! Can you guess any more???");
@@ -201,6 +205,8 @@ if (qseven == favFoods){
     alert("Sorry that didn't make the shortlist, try again...");
 
 }
+}
+/*
 
 qseven = prompt("You have 5 attempts to guess my favourite foods, can you guess them all???").toLowerCase();
 console.log("qseven");

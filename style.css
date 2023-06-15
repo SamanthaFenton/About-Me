@@ -20,6 +20,8 @@ h1 {
     font-weight: 1000;
     font-style:initial;
     color: rgb(20, 58, 58);
+    background-color: azure;
+    padding-left: 0.8rem;
 
 }
 
@@ -28,14 +30,9 @@ h2 {
     font-weight: 1000;
     font-style: initial;
     color: rgb(20, 58, 58);
-    width: 90%;
-        margin: 2rem;
-        background-color: var(--mainbackgroundcolor);
-        /* background-color: #606c5d; */
-     
- 
-        padding: 30px;
-        border: 1px;
+    background-color: beige; 
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
 
 }
 
@@ -44,7 +41,23 @@ h3 {
     font-weight: 1000;
     font-style: initial;
     color: rgb(20, 58, 58);
+    background-color: beige;
+    padding-left: 0.8rem;
+    padding-bottom: 1rem;
       
+
+
+}
+
+h4{
+    font-size: 23px;
+    font-weight: 1000;
+    font-style: initial;
+    color: rgb(20, 58, 58);
+    background-color: beige;
+    padding-left: 0.8rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
 
 
 }
@@ -72,19 +85,17 @@ section {
 
 
 div {
-    background-color:rgb(225, 207, 198);
-    padding: 300;
-    margin:90%;
-    border: 10px;
+    background-color:antiquewhite;
+    color:black;
     width: 30%;
     height: 30%;
-    align-items: center;
 
 }
 
 section ul {
     list-style: disc;
     padding-left: 1.5rem;
+    
 }
 
 section ol {
@@ -94,7 +105,7 @@ section ol {
 section li {
     background-color: var(--pnk);
     margin-bottom: 1rem;
-    padding: 2rem;
+ 
 }
 
 
