@@ -1,4 +1,4 @@
-/*"use strict"
+"use strict"
 console.log(1)
 
 const welcome = alert("Welcome to my website about me, I hope you enjoy it, but first....");
